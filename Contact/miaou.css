@@ -1,0 +1,504 @@
+.contact {
+    background-color: #f4ecfd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contact .div {
+    background-color: #f4ecfd;
+    overflow: hidden;
+    width: 1920px;
+    height: 3730px;
+    position: relative;
+  }
+  
+  .contact .overlap {
+    position: absolute;
+    width: 1921px;
+    height: 1728px;
+    top: 2000px;
+    left: 0;
+  }
+  
+  .contact .footer {
+    position: absolute;
+    width: 1920px;
+    height: 707px;
+    top: 1021px;
+    left: 0;
+  }
+  
+  .contact .quote {
+    position: absolute;
+    width: 1921px;
+    height: 1157px;
+    top: 0;
+    left: 0;
+  }
+  
+  .contact .overlap-group {
+    width: 1920px;
+    height: 1157px;
+    background-image: url(./img/rectangle-23.svg);
+    background-size: 100% 100%;
+  }
+  
+  .contact .quote-box {
+    position: relative;
+    width: 1513px;
+    height: 739px;
+    left: 218px;
+  }
+  
+  .contact .overlap-group-2 {
+    position: relative;
+    height: 739px;
+  }
+  
+  .contact .rectangle {
+    position: absolute;
+    width: 1489px;
+    height: 461px;
+    top: 278px;
+    left: 0;
+    background-color: #e6cfff;
+  }
+  
+  .contact .quote-2 {
+    position: absolute;
+    width: 1300px;
+    height: 233px;
+    top: 422px;
+    left: 141px;
+  }
+  
+  .contact .text-wrapper {
+    position: absolute;
+    width: 1296px;
+    height: 165px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 55px;
+  }
+  
+  .contact .text-wrapper-2 {
+    position: absolute;
+    width: 658px;
+    height: 31px;
+    top: 202px;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .contact .cats {
+    position: absolute;
+    width: 806px;
+    height: 462px;
+    top: 0;
+    left: 707px;
+  }
+  
+  .contact .vector {
+    top: 322px;
+    left: 260px;
+    position: absolute;
+    width: 111px;
+    height: 89px;
+  }
+  
+  .contact .img {
+    top: 597px;
+    left: 1535px;
+    position: absolute;
+    width: 111px;
+    height: 89px;
+  }
+  
+  .contact .p {
+    position: absolute;
+    width: 1159px;
+    top: 1185px;
+    left: 124px;
+    font-family: "Montserrat-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 100px;
+    white-space: nowrap;
+  }
+  
+  .contact .text-wrapper-3 {
+    position: absolute;
+    width: 1680px;
+    top: 1342px;
+    left: 124px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 60px;
+  }
+  
+  .contact .overlap-2 {
+    position: absolute;
+    width: 837px;
+    height: 945px;
+    top: 1503px;
+    left: 541px;
+    border-radius: 20px;
+  }
+  
+  .contact .contact-box {
+    position: absolute;
+    width: 837px;
+    height: 945px;
+    top: 0;
+    left: 0;
+    background-color: #e6cfff;
+    border-radius: 20px;
+  }
+
+  .contact .overlap-4 {
+    position: absolute;
+    width: 1921px;
+    height: 980px;
+    top: 0;
+    left: -1px;
+  }
+  
+  .contact .header {
+    width: 1920px;
+    height: 894px;
+    top: 86px;
+    background-color: transparent;
+    border-radius: 0px 0px 32px 32px;
+    overflow: hidden;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(156.58, 109.04, 208.25) 0%, rgb(125.79, 81.79, 173.61) 100%);
+    position: absolute;
+    left: 0;
+  }
+  
+  .contact .overlap-5 {
+    position: relative;
+    width: 1076px;
+    height: 198px;
+    top: 302px;
+    left: 422px;
+  }
+  
+  .contact .header-2 {
+    width: 1076px;
+    height: 197px;
+    top: 0;
+    font-family: "Montserrat-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 128px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    left: 0;
+  }
+  
+  .contact .rectangle-2 {
+    position: absolute;
+    width: 770px;
+    height: 39px;
+    top: 159px;
+    left: 153px;
+    background-color: #ddbffe;
+  }
+  
+  .contact .navbar {
+    display: flex;
+    width: 1920px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 162px;
+    position: absolute;
+    top: 0;
+    left: 1px;
+    background-color: #e6cfff;
+  }
+  
+  .contact .logo {
+    position: relative;
+    width: 282px;
+    height: 45px;
+  }
+  
+  .contact .name-2 {
+    position: absolute;
+    top: 4px;
+    left: 65px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 36px;
+    white-space: nowrap;
+  }
+  
+  .contact .overlap-group-wrapper {
+    position: absolute;
+    width: 47px;
+    height: 51px;
+    top: -4px;
+    left: 4px;
+    transform: rotate(10.31deg);
+  }
+  
+  .contact .overlap-group-3 {
+    position: relative;
+    width: 51px;
+    height: 56px;
+    top: 1px;
+  }
+  
+  .contact .group {
+    position: absolute;
+    width: 40px;
+    height: 37px;
+    top: 16px;
+    left: 9px;
+    transform: rotate(-10.31deg);
+  }
+  
+  .contact .ellipse {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 24px;
+    left: 22px;
+    transform: rotate(-10.31deg);
+  }
+  
+  .contact .ellipse-2 {
+    position: absolute;
+    width: 11px;
+    height: 14px;
+    top: 5px;
+    left: 8px;
+    transform: rotate(-10.31deg);
+  }
+  
+  .contact .ellipse-3 {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    top: 1px;
+    left: 23px;
+    transform: rotate(-10.31deg);
+  }
+  
+  .contact .ellipse-4 {
+    position: absolute;
+    width: 9px;
+    height: 11px;
+    top: 13px;
+    left: 34px;
+    background-color: #ff8b94;
+    border-radius: 4.54px/5.38px;
+    transform: rotate(31.88deg);
+  }
+  
+  .contact .ellipse-5 {
+    position: absolute;
+    width: 9px;
+    height: 11px;
+    top: 19px;
+    left: 2px;
+    background-color: #ff8b94;
+    border-radius: 4.55px/5.37px;
+    transform: rotate(-34.92deg);
+  }
+  
+  .contact .nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .contact .navbar-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 26px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .contact .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .contact .log-in {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #7d51ad;
+    border-radius: 8px;
+  }
+  
+  .contact .user-plus {
+    position: relative;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .contact .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .contact .sign-up {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    padding: 14px 11px 14px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .contact .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #7d51ad;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .contact .chevron-right {
+    position: relative;
+    width: 18px;
+    height: 18px;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Montserrat", Helvetica;
+    background: linear-gradient(#9E66DB, #DEC0FF, #F4ECFD);
+  }
+  .contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:20px;
+  }
+  .contact-left-title h2{
+    font-weight: 800;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .contact-left-title hr {
+    border: none;
+    width: 600px;
+    height:10px;
+    background-color: #9E66DB;
+    border-radius: 10px;
+    margin-bottom:10px
+  }
+  .contact-inputs {
+    width: 700px;
+    height: 60px;
+    border:none;
+    outline:none;
+    padding-left: 35px;
+    font-weight: 700;
+    color:#4D1788;
+    border-radius: 50px;
+    font-family: "Montsteratt", Helvetica;
+    font-size: 22px;
+
+  }
+  .contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20;
+  }
+  .contact-inputs:focus {
+    border: 2px solid #4D1788
+  }
+  .contact-inputs:placeholder {
+    color: #F4ECFD
+  }
+  .contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    font-family: "Montserrat", Helvetica;
+    gap: 20px;
+    border: none;
+    border-radius: 50px;
+    background: #4D1788;
+    Cursor: pointer;
+  }
+  .contact-left button img {
+    height: 10px;
+  }
+  .contact-right img {
+    width:500px
+  }

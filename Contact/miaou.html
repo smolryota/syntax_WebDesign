@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="miaou.css" />
+    <title>Contact Us - Miaou Maison</title>
+    <script>
+      function submitForm(event) {
+        event.preventDefault();
+        alert("Your message has been successfully sent! We’ll review it and respond as soon as possible.");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="contact">
+      <div class="div">
+        <div class="overlap">
+          <img class="footer" src="img/footer.svg" alt="Footer Image" />
+          <div class="quote">
+            <div class="overlap-group">
+              <div class="quote-box">
+                <div class="overlap-group-2">
+                  <div class="rectangle"></div>
+                  <div class="quote-2">
+                    <p class="text-wrapper">
+                      A meow massages the heart. It’s a reminder that love can be expressed in the simplest of gestures, and that connection is often found in the softest of sounds.
+                    </p>
+                    <div class="text-wrapper-2">Stuart McMillan</div>
+                  </div>
+                  <img class="cats" src="img/cats.png" alt="Cats" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="vector" src="img/Vector.png" alt="Vector" />
+          <img class="img" src="img/Vector-1.png" alt="Vector 1" />
+        </div>
+
+        <p class="p">Get in Touch with Us!</p>
+        <p class="text-wrapper-3">
+          We’re here to help you and your furry friend. Whether you have questions about our services, want to book an appointment, or need more information, don’t hesitate to reach out!
+        </p>
+
+        <div class="overlap-2">
+          <div class="contact container">
+            <form class="contact-left" onsubmit="submitForm(event)">
+              <div class="contact-left-title">
+                <h2>Send your Message</h2>
+                <hr>
+              </div>
+              <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required> 
+              <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+              <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+              <button type="submit">Send Message <img src="img/Icon-1.png" alt="Send Icon"></button>
+            </form>
+            <div class="contact-right">
+              <img src="img/53.png" alt="Decorative Image">
+            </div>
+          </div>
+        </div>
+
+        <div class="overlap-4">
+          <header class="header">
+            <div class="overlap-5">
+              <div class="header-2">Contact</div>
+              <div class="rectangle-2"></div>
+            </div>
+          </header>
+
+          <div class="navbar">
+            <div class="logo">
+              <div class="name-2">Miaou Maison</div>
+              <div class="overlap-group-wrapper">
+                <div class="overlap-group-3">
+                  <img class="group" src="img/group-3.png" alt="Logo" />
+                  <img class="ellipse" src="img/ellipse-8-6.svg" alt="Ellipse 1" />
+                  <img class="ellipse-2" src="img/ellipse-8-7.svg" alt="Ellipse 2" />
+                  <img class="ellipse-3" src="img/ellipse-9-3.svg" alt="Ellipse 3" />
+                  <div class="ellipse-4"></div>
+                  <div class="ellipse-5"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav">
+              <div class="navbar-2">
+                <div class="text-wrapper-7">Home</div>
+                <div class="text-wrapper-7">About Us</div>
+                <div class="text-wrapper-7">Services</div>
+                <div class="text-wrapper-7">Contact</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

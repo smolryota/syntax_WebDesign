@@ -1,0 +1,16 @@
+:root {
+  --x-1: rgba(254, 253, 255, 1);
+  --x-7: rgba(108, 106, 114, 1);
+  --grey: rgba(25, 24, 26, 1);
+  --text-1-1a191f: rgba(26, 25, 31, 1);
+  --ff-button-772bc4: rgba(119, 43, 196, 1);
+  --white: rgba(255, 255, 255, 1);
+  --dark: rgba(25, 26, 35, 1);
+  --light-grey: rgba(248, 247, 250, 1);
+  --13-24-font-family: "Inter", Helvetica;
+  --13-24-font-weight: 400;
+  --13-24-font-size: 13px;
+  --13-24-letter-spacing: 0px;
+  --13-24-line-height: 24px;
+  --13-24-font-style: normal;
+}
